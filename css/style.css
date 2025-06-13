@@ -1,44 +1,10 @@
-.osmo-small-button {
-  position: relative;
-  display: inline-block;
-  padding: 0.5em 1.25em;
-  background: transparent;
-  border: 1px solid black;
-  border-radius: 6px;
-  font-family: 'PP Neue Corp Tight', Arial, sans-serif;
-  font-size: 1em;
-  font-weight: 700;
-  color: black;
-  text-transform: uppercase;
-  overflow: hidden;
-  cursor: pointer;
-  transition: color 0.4s ease;
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
 }
-
-.osmo-small-button .osmo-button-text {
-  position: relative;
-  z-index: 2;
-  transition: color 0.4s ease;
-}
-
-.osmo-small-button .osmo-button-bg {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-color: black;
-  z-index: 1;
-  transform: scaleY(0);
-  transform-origin: bottom;
-  transition: transform 0.4s ease;
-}
-
-/* Hover effect */
-.osmo-small-button:hover .osmo-button-bg {
-  transform: scaleY(1);
-}
-
-.osmo-small-button:hover .osmo-button-text {
-  color: white;
-}
-
-
