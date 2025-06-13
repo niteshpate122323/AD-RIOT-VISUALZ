@@ -1,0 +1,94 @@
+.osmo-footer {
+  background: var(--color-neutral-900);
+  color: var(--color-light);
+  padding: 4em var(--container-padding);
+  font-family: 'PP Neue Montreal', Arial, sans-serif;
+  position: relative;
+}
+
+.cloneable1 {
+  padding: var(--section-padding) var(--container-padding);
+  justify-content: center;
+  align-items: center;
+  min-height: 50svh;
+  display: flex;
+  position: relative;
+  --menu-padding: 2em;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1em;
+  max-width: var(--size-container);
+  margin: 0 auto;
+}
+
+.footer-cta {
+  align-self: start;
+}
+
+.footer-cta-text {
+  text-transform: uppercase;
+  margin-bottom: .5em;
+}
+
+.footer-cta-button {
+  text-decoration: none;
+  background: var(--color-primary);
+  color: var(--color-light);
+  padding: .75em 1.5em;
+  display: inline-block;
+  transition: opacity .3s ease;
+}
+
+.footer-cta-button:hover {
+  opacity: .8;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.footer-col .eyebrow {
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: .5em;
+}
+
+.footer-col a {
+  color: var(--color-light);
+  position: relative;
+}
+
+.footer-col a::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--color-primary);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .3s ease;
+}
+
+.footer-col a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.footer-copy {
+  grid-column: 1 / -1;
+  margin-top: 2em;
+  color: rgba(255,255,255,0.6);
+  font-size: .875em;
+}
