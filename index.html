@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AD RIOT VISUALZ</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/project.css">
+    <!-- aos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+    <!-- navbar -->
+    <link rel="stylesheet" href='https://slater.app/10324/23333.css'>
+</head>
+<body>
+    
+    <section class="video-section">
+        <video id="bgVideo" autoplay muted loop playsinline>
+            <source src="assets/media/3.mov" type="video/mp4">
+        </video>
+    </section>
+
+
+    <!-- service -->
+    <section class="banner services-section" data-aos="fade-up" data-aos-delay="0">
+        <h1>Services</h1>
+        <p>We provide top-notch digital services to boost your business.</p>
+        
+        <div class="services-grid">
+
+            <div class="service-card">
+                <img src="#" alt="#">
+                <div class="service-content">
+                    <h3>example</h3>
+                    <p>example</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="#" alt="#">
+                <div class="service-content">
+                    <h3>example</h3>
+                    <p>example</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="#" alt="#">
+                <div class="service-content">
+                    <h3>example</h3>
+                    <p>example</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="#" alt="#">
+                <div class="service-content">
+                    <h3>example</h3>
+                    <p>example</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- service -->
+    
+    <!-- project -->
+    <section class="banner projects-section" data-aos="fade-up" data-aos-delay="400">
+        <h1>Featured Projects</h1>
+        <p>Some of our exciting work</p>
+        
+        <div class="projects-grid">
+            
+            <div class="project-box" onclick="openPopup('')">
+                <img src="#" alt="#">
+                <div class="overlay">example</div>
+            </div>
+
+            <div class="project-box" onclick="openPopup('')">
+                <img src="#" alt="#">
+                <div class="overlay">example</div>
+            </div>
+
+            <div class="project-box" onclick="openPopup('')">
+                <img src="#" alt="#">
+                <div class="overlay">example</div>
+            </div>
+
+            <div class="project-box" onclick="openPopup('')">
+                <img src="#" alt="#">
+                <div class="overlay">example</div>
+            </div>
+
+        </div>
+    </section>
+    
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="popup-close" onclick="closePopup()">&times;</span>
+            <iframe id="videoFrame" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- project -->
+
+    <section class="banner ready-next-section" data-aos="fade-up" data-aos-delay="800">
+        <h1>Ready To See What's Next?</h1>
+        <a href="#">
+            <button class="curve-button">Connect With Us</button>
+        </a>
+    </section>
+
+    <!-- navbar -->
+    <div class="osmo-ui">
+        <header class="header">
+            <div class="container is--full">
+                <nav class="nav-row">
+                    <div class="nav-logo-row w-inline-block">
+                        <a href="#">
+                            <img src="assets/logo/1.png" alt="Logo" class="nav-logo-image" />
+                        </a>
+                    </div>
+                    <div class="nav-logo__icon"></div>
+                    <div class="nav-row__right">
+                        <button role="button" data-menu-toggle="" class="menu-button">
+                            <div class="menu-button-text">
+                                <p class="p-large">Menu</p>
+                                <p class="p-large">Close</p>
+                            </div>
+                            <div class="icon-wrap">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 16 16" fill="none" class="menu-button-icon">
+                                    <path d="M7.33333 16L7.33333 -3.2055e-07L8.66667 -3.78832e-07L8.66667 16L7.33333 16Z" fill="currentColor"></path>
+                                    <path d="M16 8.66667L-2.62269e-07 8.66667L-3.78832e-07 7.33333L16 7.33333L16 8.66667Z" fill="currentColor"></path>
+                                    <path d="M6 7.33333L7.33333 7.33333L7.33333 6C7.33333 6.73637 6.73638 7.33333 6 7.33333Z" fill="currentColor"></path>
+                                    <path d="M10 7.33333L8.66667 7.33333L8.66667 6C8.66667 6.73638 9.26362 7.33333 10 7.33333Z" fill="currentColor"></path>
+                                    <path d="M6 8.66667L7.33333 8.66667L7.33333 10C7.33333 9.26362 6.73638 8.66667 6 8.66667Z" fill="currentColor"></path>
+                                    <path d="M10 8.66667L8.66667 8.66667L8.66667 10C8.66667 9.26362 9.26362 8.66667 10 8.66667Z" fill="currentColor"></path>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <section class="cloneable">
+        <div data-nav="closed" class="nav">
+            <div data-menu-toggle="" class="overlay">
+                <img src="">
+            </div>
+            <nav class="menu">
+                <div class="menu-bg">
+                    <div class="bg-panel first"></div>
+                    <div class="bg-panel second"></div>
+                    <div class="bg-panel"></div>
+                </div>
+                <div class="menu-inner">
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a href="#" class="menu-link w-inline-block">
+                                <p class="menu-link-heading">Home</p>
+                                <p class="eyebrow">01</p>
+                                <div class="menu-link-bg"></div>
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="#" class="menu-link w-inline-block">
+                                <p class="menu-link-heading">Client</p>
+                                <p class="eyebrow">02</p>
+                                <div class="menu-link-bg"></div>
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="#" class="menu-link w-inline-block">
+                                <p class="menu-link-heading">Services</p>
+                                <p class="eyebrow">03</p>
+                                <div class="menu-link-bg"></div>
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="#" class="menu-link w-inline-block">
+                                <p class="menu-link-heading">About us</p>
+                                <p class="eyebrow">04</p>
+                                <div class="menu-link-bg"></div>
+                            </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="#" class="menu-link w-inline-block">
+                                <p class="menu-link-heading">Contact us</p>
+                                <p class="eyebrow">05</p>
+                                <div class="menu-link-bg"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <script src="js/project.js"></script>
+    <!-- aos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/aos.js"></script>
+
+    <!-- navbar -->
+    <script src='https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js'></script>
+
+    <script src="js/navbar.js"></script>
+    
+</body>
+</html>
